@@ -1,0 +1,79 @@
+<div [@routerTransition]>
+    <app-page-header [heading]="'Tables of analysis'" [icon]="'fa-table'"></app-page-header>
+   
+    <div class="d-flex" id="wrapper">
+        <!-- s -->
+        <div class="bg-light border-right" id="sidebar-wrapper">
+          <div class="sidebar-heading"> </div>
+          <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action bg-light">Module</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Action</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Date</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Level</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Produit</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Requete1</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Requete2</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Thread</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Time</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Type</a>
+            
+          </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <button class="btn btn-primary" id="menu-toggle">Add to filter</button>
+           
+          </nav>
+          <div class="container-fluid border">
+            
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                  <th scope="col">Time</th>
+                  <th scope="col">⇩</th>
+        
+                  <th scope="col">Module</th>
+                  <th scope="col">Action</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Level</th>
+                  <th scope="col">Produit</th>
+                  <th scope="col">Requete1</th>
+                  <th scope="col">Requete2</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <th scope="row"></th>
+                  <td>22 mai 2022, 20:00</td>
+                  <td>•	MEGACUSTODY</td>
+                  <td>default</td>
+                  <td>27 février 2022</td>
+                  <td>INFO</td>
+                  <td>Palmyra</td>
+                  <td>-</td>
+                  <td>-</td>
+                
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td>20 mai 2022,08:00</td>
+                    <td>•	MEGACUSTODY</td>
+                    <td>default</td>
+                    <td>26 février 2022</td>
+                    <td>INFO</td>
+                    <td>Massa</td>
+                    <td>-</td>
+                    <td>-</td>
+                  
+                  </tr>
+                  
+                </tbody>
+              </table>
+          </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+      </div>
+    
+</div>
